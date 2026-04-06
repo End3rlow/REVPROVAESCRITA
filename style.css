@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grupo {
+    display: flex;
+}
+
+.cabecalho {
+    background-color: indigo;
+}
+.navegacao {
+    background-color: mediumpurple;
+}
+.secao {
+    background-color: indigo;
+}
+.rodape {
+    background-color: mediumpurple;
+}
