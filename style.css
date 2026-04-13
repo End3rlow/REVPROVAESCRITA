@@ -64,7 +64,14 @@
 
 .redes img{
     margin-left: 10px;
-    align-items: center;
-    gap: 5px;
-    text-decoration: none;
+    width: 20px;
+    height: 20px;
 }
+
+.redes a{
+    display: flex;
+    align-items: center;
+    gap: 5px
+    text decoration none;
+}
+
