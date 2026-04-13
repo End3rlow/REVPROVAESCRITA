@@ -9,7 +9,7 @@
 }
 
 .cabecalho{
-    background-color: hsl(286, 96%, 34%);
+    background-color: #701010
     color: #fff;
     padding: 10px;
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .menu a{
-    color: rgb(0, 0, 0);
+    color: #701010
     text-decoration: none;
     margin-left: 15px;
 }
@@ -32,9 +32,9 @@
     padding: 10px;
 }
 .secao{
-    background-color: hsl(219, 93%, 21%);
+    background-color: #701010
     
 }
 .rodape{
-    background-color: hsla(90, 100%, 7%, 0.589);
+    background-color: #701010
 }
