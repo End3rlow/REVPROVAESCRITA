@@ -9,7 +9,7 @@
 }
 
 .cabecalho{
-    background-color: #701010
+    background-color: hwb(180 9% 57%);
     color: #fff;
     padding: 10px;
     display: flex;
@@ -18,23 +18,36 @@
 }
 
 .menu a{
-    color: #701010
+    color: #10106b;
     text-decoration: none;
     margin-left: 15px;
 }
+.conteudo{
+    display: flex;
+    height: 200px;
+}
 .menu a:hover{
-    color: #701010;
+    color: hsl(263, 71%, 39%);
 }
 .navegacao{
-    background-color: hsla(0, 84%, 46%, 0);
+    background-color: #969e29;
     display: inline-block;
     width: 30%;
     padding: 10px;
 }
+.navegacao ul{
+    list-style: none;
+    padding: 0;
+}
+.navegacao li{
+    margin-bottom: 10px;
+}
 .secao{
-    background-color: #701010
-    
+    background-color: hsl(327, 45%, 47%);
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
 }
 .rodape{
-    background-color: #701010
+    background-color: hsl(78, 79%, 43%);
 }
