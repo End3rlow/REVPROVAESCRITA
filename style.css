@@ -50,4 +50,21 @@
 }
 .rodape{
     background-color: hsl(78, 79%, 43%);
+     height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.redes img{
+    margin-left: 10px;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
 }
