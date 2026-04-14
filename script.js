@@ -1,4 +1,4 @@
-unction alterarNome() {
+function alterarNome() {
     let trocarNome = document.getElementById('inputNome').
     value;
     if(trocarNome === ""){
