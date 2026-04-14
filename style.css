@@ -9,7 +9,7 @@
 }
 
 .cabecalho{
-    background-color: hwb(180 9% 57%);
+    background-color: hsl(183, 30%, 88%);
     color: #fff;
     padding: 10px;
     display: flex;
@@ -18,19 +18,19 @@
 }
 
 .menu a{
-    color: #10106b;
+    color: #f0a400;
     text-decoration: none;
     margin-left: 15px;
 }
 .conteudo{
     display: flex;
-    height: 200px;
+    
 }
 .menu a:hover{
-    color: hsl(263, 71%, 39%);
+    color: #8ba10f;
 }
 .navegacao{
-    background-color: #969e29;
+    background-color: hsl(212, 79%, 26%);
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -43,35 +43,42 @@
     margin-bottom: 10px;
 }
 .secao{
-    background-color: hsl(327, 45%, 47%);
+    background-color: hsl(315, 43%, 46%);
     display: inline-block;
     width: 70%;
     padding: 10px;
 }
+.secao p{
+    margin-bottom: 10px;
+}
+
+.formulario{
+    margin-bottom: 10px;
+}
 .rodape{
-    background-color: hsl(78, 79%, 43%);
-     height: 70px;
+    background-color: hwb(90 5% 42%);
+    height:  70px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .redes{
     display: flex;
     align-items: center;
 }
-
 .redes img{
     margin-left: 10px;
-    width: 20px;
-    height: 20px;
+   width: 20px;
+   height: 20px;
 }
-
 .redes a{
-    display: flex;
+   display: flex;
     align-items: center;
-    gap: 5px
-    text decoration none;
+    gap: 5px;
+    text-decoration: none;
 }
-
+.redes a:hover{
+    color: #1daf8f;
+    opacity: 0.7;
+}
